@@ -1,0 +1,46 @@
+h1{
+    color: red;
+    text-align: center;
+    font-family: 'Grechen Fuemen', cursive;
+}
+
+h3:hover{
+    color: yellow;
+}
+
+.fondoBlanco{
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    border-radius: 35px 78px 35px 78px;
+    border: 5px solid #f70000;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#imagen{
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 22px 18px 50px 16px rgba(52,174,159,0.83);
+}
+
+.gradiante{
+    background: #000000;
+    background: linear-gradient(180deg,#000000 0%, #ffffff 80%);
+}
+
+.columnas{
+    column-count: 3;
+    column-gap: 25px;
+    column-rule: 1px ridge #d02828;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.calle{
+    color: tomato;
+    font-size: 25px;
+}
